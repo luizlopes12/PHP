@@ -1,5 +1,5 @@
 <?php
-class Login(){
+class Login {
     //Definição de variaveis
     private $email;
     private $senha;
@@ -16,7 +16,7 @@ class Login(){
         $this->email = $filteredEmail;
     }
     public function setSenha($s){
-        this->senha = $s
+        this->senha = $s;
     }
     //Métodos
     public function Logar(){
